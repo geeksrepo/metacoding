@@ -1,0 +1,27 @@
+div {
+    background: rgb(201, 82, 88);
+    width: 600px;
+}
+h2 {
+    color: rgb(87, 216, 255);
+    background-color: blanchedalmond;
+}
+p {
+    background-color: blanchedalmond;
+}
+body {
+    background-color: blanchedalmond;
+}
+.no-underline {
+    text-decoration: none;
+}
+.button {
+    background-color: blueviolet;
+    color: white;
+    padding: 4px;
+    border-radius: 20px;
+}
+#sport {
+    font-size: 20px;
+    font-style: italic;
+}
