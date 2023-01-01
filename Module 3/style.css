@@ -2,18 +2,26 @@ div {
     /* background: rgb(201, 82, 88); */
     width: 600px;
 }
-h2 {
+h3 {
     color: rgb(87, 216, 255);
     background-color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-family: 'Georgia', sans-serif;
 }
 img {
     width: inherit;
     border-radius: 40px;
 }
-/* p {
-    background-color: blanchedalmond;
+p {
+    font-family: 'Montserrat', sans-serif;
 }
-body {
+p::selection {
+    background-color: aqua;
+}
+/* body {
     background-color: blanchedalmond;
 } */
 .no-underline {
