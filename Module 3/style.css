@@ -21,9 +21,6 @@ p {
 p::selection {
     background-color: aqua;
 }
-/* body {
-    background-color: blanchedalmond;
-} */
 .no-underline {
     text-decoration: none;
 }
@@ -33,7 +30,17 @@ p::selection {
     padding: 4px;
     border-radius: 20px;
 }
-/* #sport {
-    font-size: 20px;
-    font-style: italic;
-} */
+a:link {
+    color: blue;
+}
+a:visited {
+    color: darkorange;
+}
+a:hover {
+    color: burlywood;
+    background-color: crimson;
+}
+a:active {
+    color: cyan;
+    background-color: darkmagenta;
+}
