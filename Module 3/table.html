@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <title>Стилизация таблиц</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 100%;
+        }
+        tr:nth-child(even) {
+            background-color: bisque;
+        }
+        td {
+            text-align: center;
+        }
+        td:hover {
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Название</th>
+            <th>Область</th>
+            <th>Население</th>
+            <th>Площадь</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Алматы</td>
+                <td>Алматинская</td>
+                <td>2 037 972&nbsp;</td>
+                <td>682 кв. км.<br></td>
+            </tr>
+            <tr>
+                <td>Нур-Султан</td>
+                <td>Акмолинская</td>
+                <td>1 252 804</td>
+                <td>810 кв. км.<br></td>
+            </tr>
+            <tr>
+                <td>Шымкент</td>
+                <td>Туркестанская</td>
+                <td>1 119 603</td>
+                <td>1 162 кв. км.<br></td>
+            </tr>
+            <tr>
+                <td>Актобе</td>
+                <td>Актюбинская</td>
+                <td>525 905</td>
+                <td>297 кв. км.<br></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
