@@ -1,0 +1,107 @@
+html {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Roboto';
+}
+.qwerty{
+    background-color: rgb(0, 0, 0);
+}
+.ssss li a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(99, 60, 9);
+    border-radius: 20px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    padding: 10px;
+    list-style-type: none;
+}
+.block{
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    margin: 10px;
+    height: 700px;
+    padding: 10px;
+    
+}
+h4{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    margin: 0px 4px 8px 4px;
+}
+.img1{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_481369/thumb_m/photo_410906.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://zakon-img1.object.pscloud.io/fc05aba2ecab4fdab007e911484d797d.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_481464/thumb_m/photo_411018.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_481450/thumb_m/photo_411006.png);
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://tengrinews.kz/userdata/news/2022/news_481409/thumb_m/photo_410948.jpeg);
+    background-size: cover;
+    background-position: center;   
+}
+.mini1{
+    background-color: white;
+    margin: 4px;
+    border-radius: 0px 0px 20px 20px;
+}
+b,small{
+    padding-left: 10px;
+}
+small{
+    color: rgb(129, 131, 132);   }
+
+.t1{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 310px;}
+.t2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 310px 310px;  
+}
+.mini1:hover {
+    cursor: pointer;
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
