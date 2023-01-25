@@ -45,9 +45,4 @@ a:active {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, 600px);
-    grid-template-rows: repeat(2, 100px);
-}
-.header {
-    grid-column-start: 1;
-    grid-column-end: 5;
 }
